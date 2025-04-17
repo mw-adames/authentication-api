@@ -14,4 +14,30 @@ public class Rol {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
 
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+
+    public String getName() {
+        return Name;
+    }
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+
+
+    }
 }
